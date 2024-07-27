@@ -10,7 +10,7 @@ class ExifEditor:
         self.root = root
         self.root.title("Exif Editor")
         self.fields = {}
-        self.image_path = "maphoto.jpg"
+        self.image_path = "photo_lea.jpg"
 
         # Load image and EXIF data
         self.load_image_and_exif()
